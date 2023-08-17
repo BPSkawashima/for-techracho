@@ -2,6 +2,9 @@
 
 [こちらの記事](https://techracho.bpsinc.jp/?p=120927)で使用したソースコードとなります
 
+2023/8/17 更新  
+[こちらの記事](https://techracho.bpsinc.jp/?p=133441)の更新分を適用しました
+
 ## アプリについて
 
 本アプリは、TechRachoのフィードを読み込んで表示するアプリです。
@@ -10,6 +13,10 @@ SwiftUIとUIKitとの実装を比較するために作成しました。
 SwiftUI版とUIKit版でスキームを分けています。
 - SwiftUI版: TechRachoReaderWithSwiftUI
 - UIKit版: TechRachoReaderWithUIKit
+
+2023/8/17 更新
+visionOSUI版として新たにスキームを設けました。
+- visionOSUI版: TechRachoReaderForVision
 
 ## ライセンス
 

@@ -1,8 +1,6 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '13.0'
 
-pod 'SwiftFormat/CLI'
-
 target 'TechRachoFeedReaderWithSwiftUI' do
   use_frameworks!
   pod "FeedKit", "~>9.1.2"
@@ -12,4 +10,3 @@ target 'TechRachoFeedReaderWithUIKit' do
     use_frameworks!
     pod "FeedKit", "~>9.1.2"
 end
-

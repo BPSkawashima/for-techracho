@@ -47,7 +47,7 @@ struct ArticleListView: View {
 
 struct ArticleListView_Previews: PreviewProvider {
     static var previews: some View {
-        let usecase = ArticleUsecase(remoteRepository: RemoteArticleRepositoryImpl(),
+        let usecase = ArticleUsecase(remoteRepository: ArticleRepositoryStub(),
                                      cacheRepository: ArticleCacheRepositoryImpl())
         ArticleListView(viewModel: ArticleListViewModel(usecase: usecase))
     }
